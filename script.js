@@ -110,12 +110,10 @@ function mostraAlternativas() {
       caixaAlternativas.appendChild(botaoAlternativas);
     }
   }
-  funcion respostaSelecionada(opçaoSelecionada) {
-    const afirmaçoes = opçaoSelecionada.afirmaçoes;
-    historiaFinal = afirmaçoes;
+  function respostaSelecionada(opcaoSelecionada){
+    const afirmacoes = opcaoSelecionada.afirmacoes;
+    historiaFinal = afirmacoes;
     atual++;
-    mostraPergunta();  
-
-  }
-  
-  mostraPergunta();  
+    mostraPergunta();
+}
+mostraPergunta();
