@@ -19,6 +19,7 @@ const perguntas = [
         },
       ],
     },
+
     {
       enunciado:
         "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
@@ -54,6 +55,7 @@ const perguntas = [
         },
       ],
     },
+
     {
       enunciado:
         "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
@@ -69,6 +71,7 @@ const perguntas = [
         },
       ],
     },
+
     {
       enunciado:
         "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
@@ -101,7 +104,7 @@ function mostraAlternativas() {
     for (const alternativa of perguntaAtual.alternativas) {
       const botaoAlternativas = document.createElement("button");
       botaoAlternativas.textContent = alternativa.texto;
-      botaoAlternativas.addEventListener("click",funcion (){
+      botaoAlternativas.addEventListener("click", funcion (){
            atual++;
            mostraPergunta();
       })
