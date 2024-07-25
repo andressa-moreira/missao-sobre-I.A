@@ -17,7 +17,7 @@ const perguntas = [
         “Achou assustador pensar na velocidade na qual a tecnologia está avançando.”
         ],
         },
-        {
+        
         texto: “Isso é maravilhoso!”,
         afirmacao:
         “Quis saber como usar IA no seu dia a dia.”,
